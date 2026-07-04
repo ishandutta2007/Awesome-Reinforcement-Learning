@@ -11,8 +11,10 @@ Reinforcement Learning focuses on training autonomous software agents to maximiz
 
 The transition of the paradigm from theoretical statistical control equations to highly scalable deep neural networks and self-play models.
 
-
+```mermaid
 [1950s: Bellman Foundations]   ──► Dynamic Programming; exact values requiring transition models (P)│▼[1980s: Tabular Model-Free]    ──► Temporal Difference (TD), Q-Learning, and SARSA (Watkins, Sutton)│▼[2013: Deep Value Networks]    ──► Deep Q-Networks (DQN) solve discrete raw pixel spaces (Mnih et al.)│▼[2016: Actor-Critic Engines]   ──► Policy Gradients (A3C, TRPO, PPO) stabilize continuous environments│▼[Modern: LLM Post-Training]    ──► RLHF/RLAIF (PPO, GRPO) optimizing conversational alignment behavior
+```
+
 ---
 
 ## 🧭 Deep Dive: Algorithmic Taxonomy & Evolution
@@ -34,7 +36,10 @@ The agent completely bypasses modeling environmental physics, optimizing its beh
 
 ### 2. Value-Based, Policy-Based, and Actor-Critic Methods
 
+```mermaid
 ┌─────────────────────────────┐│   Reinforcement Learning    │└──────────────┬──────────────┘│┌────────────────────┼────────────────────┐▼                    ▼                    ▼┌─────────────────┐  ┌─────────────────┐  ┌──────────────────┐│   Value-Based   │  │  Policy-Based   │  │   Actor-Critic   ││ (Q-Learning/DQN)│  │   (REINFORCE)   │  │   (PPO/SAC/GRPO) │└─────────────────┘  └─────────────────┘  └──────────────────┘
+```
+
 #### Value-Based Methods (Tracking Expected Gains)
 These algorithms isolate and track the maximum expected long-term return for states or state-action configurations, deriving the optimal policy implicitly by executing greedy actions toward the highest mathematical value.
 *   **Core Update Equation (Tabular Q-Learning):**
