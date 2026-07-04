@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="100%" height="200">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A2980" />
+      <stop offset="100%" stop-color="#26D0CE" />
+    </linearGradient>
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFD700" />
+      <stop offset="100%" stop-color="#FF8C00" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="200" rx="15" fill="url(#bg-grad)" />
+
+  <!-- Animated floating shapes -->
+  <circle cx="100" cy="150" r="20" fill="rgba(255,255,255,0.1)">
+    <animate attributeName="cy" values="150;120;150" dur="4s" repeatCount="indefinite" />
+  </circle>
+  <rect x="700" y="40" width="30" height="30" fill="rgba(255,255,255,0.1)" transform="rotate(45 715 55)">
+    <animate attributeName="y" values="40;70;40" dur="5s" repeatCount="indefinite" />
+    <animateTransform attributeName="transform" type="rotate" from="0 715 55" to="360 715 55" dur="10s" repeatCount="indefinite" />
+  </rect>
+  <circle cx="400" cy="180" r="40" fill="rgba(255,255,255,0.05)">
+    <animate attributeName="cy" values="180;150;180" dur="6s" repeatCount="indefinite" />
+  </circle>
+  
+  <!-- Title Text -->
+  <text x="400" y="100" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="url(#text-grad)" text-anchor="middle" alignment-baseline="middle">
+    Awesome Reinforcement Learning
+  </text>
+  <text x="400" y="140" font-family="Arial, sans-serif" font-size="20" fill="#ffffff" text-anchor="middle" alignment-baseline="middle" opacity="0.9">
+    Explore the RL Paradigm &amp; Architecture Map
+  </text>
+</svg>

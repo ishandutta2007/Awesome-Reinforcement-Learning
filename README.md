@@ -1,5 +1,9 @@
-# Awesome-Reinforcement-Learning
-## 🤖 The Reinforcement Learning (RL) Paradigm & Architecture Map
+<div align="center">
+  <img src="assets/banner.svg" alt="Awesome Reinforcement Learning Banner" width="100%" />
+</div>
+
+# 🚀 Awesome-Reinforcement-Learning 🧠
+## 🤖 The Reinforcement Learning (RL) Paradigm & Architecture Map 🗺️
 
 > **A comprehensive reference guide for Reinforcement Learning—mapping fundamental mathematical principles, historical algorithmic lineages, deep neural extensions, and multi-agent systems.**
 
@@ -24,7 +28,7 @@ flowchart TD
 
 ## 🧭 Deep Dive: Algorithmic Taxonomy & Evolution
 
-### 1. Model-Based vs. Model-Free Architectures
+### 🏛️ 1. Model-Based vs. Model-Free Architectures
 The foundational structural fork in reinforcement learning relies on whether the algorithm constructs or expects an explicitly calculated model of environment physics.
 
 #### Model-Based RL (e.g., Dyna-Q, AlphaZero, MuZero)
@@ -39,7 +43,7 @@ The agent completely bypasses modeling environmental physics, optimizing its beh
 
 ---
 
-### 2. Value-Based, Policy-Based, and Actor-Critic Methods
+### ⚖️ 2. Value-Based, Policy-Based, and Actor-Critic Methods
 
 ```mermaid
 flowchart TB
@@ -74,7 +78,7 @@ Combines the strengths of both frameworks into an asymmetric layout.
 
 ---
 
-## 🧮 Mathematical Foundations (The MDP)
+## 🧮 Mathematical Foundations (The MDP) 🎲
 
 The entire reinforcement learning universe maps down to a formal mathematical vehicle called the **Markov Decision Process (MDP)**, governed by the Markov Assumption: *The future depends only upon the present state, not the past.*
 
@@ -87,7 +91,7 @@ An MDP is explicitly defined by a 5-tuple: \(\langle S, A, P, R, \gamma \rangle\
 
 ---
 
-## 🚀 Real-World Applications by Implementation Domain
+## 🌍 Real-World Applications by Implementation Domain 🚀
 
 *   **Generative AI Alignment (LLMs):** Utilizing PPO and GRPO protocols to fine-tune pre-trained language architectures based on human preference tokens (RLHF), eliminating hallucinations and toxic outputs while scaling coding competencies.
 *   **Industrial Robotics & Autonomous Control:** Utilizing Soft Actor-Critic (SAC) to govern continuous motor control paths, enabling multi-joint robot arms or bipedal systems to dynamically adapt to shifting real-world terrain frictions.
