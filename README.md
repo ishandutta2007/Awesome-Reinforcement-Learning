@@ -12,7 +12,12 @@ Reinforcement Learning focuses on training autonomous software agents to maximiz
 The transition of the paradigm from theoretical statistical control equations to highly scalable deep neural networks and self-play models.
 
 ```mermaid
-[1950s: Bellman Foundations]   ──► Dynamic Programming; exact values requiring transition models (P)│▼[1980s: Tabular Model-Free]    ──► Temporal Difference (TD), Q-Learning, and SARSA (Watkins, Sutton)│▼[2013: Deep Value Networks]    ──► Deep Q-Networks (DQN) solve discrete raw pixel spaces (Mnih et al.)│▼[2016: Actor-Critic Engines]   ──► Policy Gradients (A3C, TRPO, PPO) stabilize continuous environments│▼[Modern: LLM Post-Training]    ──► RLHF/RLAIF (PPO, GRPO) optimizing conversational alignment behavior
+flowchart TD
+    A["1950s: Bellman Foundations<br/>Dynamic Programming; exact value computation using known transition models (P)."]
+    --> B["1980s: Tabular Model-Free RL<br/>Temporal Difference (TD), Q-Learning, and SARSA."]
+    --> C["2013: Deep Value Networks<br/>Deep Q-Networks (DQN) for high-dimensional observations."]
+    --> D["2016: Actor–Critic Methods<br/>A3C, TRPO, PPO, and related policy-gradient algorithms for continuous control."]
+    --> E["Modern: LLM Post-Training<br/>RLHF, RLAIF, GRPO, and related methods for preference alignment."]
 ```
 
 ---
@@ -37,7 +42,13 @@ The agent completely bypasses modeling environmental physics, optimizing its beh
 ### 2. Value-Based, Policy-Based, and Actor-Critic Methods
 
 ```mermaid
-┌─────────────────────────────┐│   Reinforcement Learning    │└──────────────┬──────────────┘│┌────────────────────┼────────────────────┐▼                    ▼                    ▼┌─────────────────┐  ┌─────────────────┐  ┌──────────────────┐│   Value-Based   │  │  Policy-Based   │  │   Actor-Critic   ││ (Q-Learning/DQN)│  │   (REINFORCE)   │  │   (PPO/SAC/GRPO) │└─────────────────┘  └─────────────────┘  └──────────────────┘
+flowchart TB
+
+A["Reinforcement Learning"]
+
+A --> B["Value-Based<br/>(Q-Learning / DQN)"]
+A --> C["Policy-Based<br/>(REINFORCE)"]
+A --> D["Actor–Critic<br/>(PPO / SAC / GRPO)"]
 ```
 
 #### Value-Based Methods (Tracking Expected Gains)
