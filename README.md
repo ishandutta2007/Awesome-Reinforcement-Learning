@@ -288,3 +288,12 @@ Star the repo if you find it useful!
 
 **Made for RL researchers, robotics engineers, ML platform teams, and developers building decision-making systems.**
 Let's make reinforcement learning more open, reproducible, and scalable.
+
+## Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Reinforcement-Learning&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Reinforcement-Learning_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Reinforcement-Learning_growth.svg">
+  </picture>
+</a>
