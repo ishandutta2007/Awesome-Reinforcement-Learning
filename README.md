@@ -244,114 +244,114 @@ The table below compiles commercial SaaS products and hosted ML platforms optimi
 
 ## 📦 Open-Source GitHub Projects (Ranked by Stars)
 
-The most influential open-source reinforcement learning repositories, libraries, physics simulators, and environment suites, **sorted descending by active GitHub star count**:
+The most influential open-source reinforcement learning repositories, libraries, physics simulators, and environment suites, **sorted descending by active GitHub Stars_Count**:
 
-### 1. 🥇 [Ray (RLlib)](https://github.com/ray-project/ray) [![GitHub stars](https://img.shields.io/github/stars/ray-project/ray?style=social&color=white)](https://github.com/ray-project/ray/stargazers)
+### 1. 🥇 [Ray (RLlib)](https://github.com/ray-project/ray) [![GitHub_Stars](https://img.shields.io/github/stars/ray-project/ray?style=social&color=white)](https://github.com/ray-project/ray/stargazers)
 * **Description:** Unified distributed execution framework powering **Ray RLlib**, the industry standard for production-grade, distributed reinforcement learning.
 * **Key Features:** Native support for multi-agent RL (MARL), offline RL, external simulator bindings, and elastic scaling from single laptops to 10,000+ CPU/GPU nodes via `LearnerGroup` and `EnvRunnerGroup` APIs.
 * **License:** Apache-2.0
 
-### 2. 🥈 [OpenAI Gym](https://github.com/openai/gym) [![GitHub stars](https://img.shields.io/github/stars/openai/gym?style=social&color=white)](https://github.com/openai/gym/stargazers)
+### 2. 🥈 [OpenAI Gym](https://github.com/openai/gym) [![GitHub_Stars](https://img.shields.io/github/stars/openai/gym?style=social&color=white)](https://github.com/openai/gym/stargazers)
 * **Description:** The historic foundational API that established standardized interfaces between reinforcement learning algorithms and simulation environments worldwide.
 * **Key Features:** Classic control, Atari 2600, 2D Box2D physics, and MuJoCo continuous control suites. *(Maintained successor continued under Farama Gymnasium).*
 * **License:** MIT
 
-### 3. 🥉 [Reinforcement Learning Code](https://github.com/dennybritz/reinforcement-learning) [![GitHub stars](https://img.shields.io/github/stars/dennybritz/reinforcement-learning?style=social&color=white)](https://github.com/dennybritz/reinforcement-learning/stargazers)
+### 3. 🥉 [Reinforcement Learning Code](https://github.com/dennybritz/reinforcement-learning) [![GitHub_Stars](https://img.shields.io/github/stars/dennybritz/reinforcement-learning?style=social&color=white)](https://github.com/dennybritz/reinforcement-learning/stargazers)
 * **Description:** Denny Britz's acclaimed implementation repository providing clean, pedagogical code companions to Sutton & Barto's RL textbook.
 * **Key Features:** Implementations of Dynamic Programming, Monte Carlo, SARSA, Q-Learning, Deep Q-Networks, FA, and Policy Gradient methods.
 * **License:** MIT
 
-### 4. 🚀 [TRL (Transformer Reinforcement Learning)](https://github.com/huggingface/trl) [![GitHub stars](https://img.shields.io/github/stars/huggingface/trl?style=social&color=white)](https://github.com/huggingface/trl/stargazers)
+### 4. 🚀 [TRL (Transformer Reinforcement Learning)](https://github.com/huggingface/trl) [![GitHub_Stars](https://img.shields.io/github/stars/huggingface/trl?style=social&color=white)](https://github.com/huggingface/trl/stargazers)
 * **Description:** Hugging Face's comprehensive full-stack library for training transformer language models with reinforcement learning techniques.
 * **Key Features:** Full implementations of Proximal Policy Optimization (PPO), Direct Preference Optimization (DPO), Group Relative Policy Optimization (GRPO), and Reward Modeling across distributed Accelerate/DeepSpeed clusters.
 * **License:** Apache-2.0
 
-### 5. 🏛️ [OpenAI Baselines](https://github.com/openai/baselines) [![GitHub stars](https://img.shields.io/github/stars/openai/baselines?style=social&color=white)](https://github.com/openai/baselines/stargazers)
+### 5. 🏛️ [OpenAI Baselines](https://github.com/openai/baselines) [![GitHub_Stars](https://img.shields.io/github/stars/openai/baselines?style=social&color=white)](https://github.com/openai/baselines/stargazers)
 * **Description:** High-quality reference implementations of foundational reinforcement learning algorithms created by OpenAI researchers.
 * **Key Features:** Original canonical benchmarks for DQN, TRPO, PPO, DDPG, ACER, and HER.
 * **License:** MIT
 
-### 6. ⚡ [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3) [![GitHub stars](https://img.shields.io/github/stars/DLR-RM/stable-baselines3?style=social&color=white)](https://github.com/DLR-RM/stable-baselines3/stargazers)
+### 6. ⚡ [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3) [![GitHub_Stars](https://img.shields.io/github/stars/DLR-RM/stable-baselines3?style=social&color=white)](https://github.com/DLR-RM/stable-baselines3/stargazers)
 * **Description:** Reliable, modular PyTorch implementations of reinforcement learning algorithms built with clean scikit-learn-like design principles.
 * **Key Features:** Battle-tested implementations of PPO, SAC, TD3, DQN, and A2C; comprehensive documentation, clean tensor abstractions, and the RL Baselines3 Zoo hyperparameter tuning hub.
 * **License:** MIT
 
-### 7. 🏟️ [Gymnasium](https://github.com/Farama-Foundation/Gymnasium) [![GitHub stars](https://img.shields.io/github/stars/Farama-Foundation/Gymnasium?style=social&color=white)](https://github.com/Farama-Foundation/Gymnasium/stargazers)
+### 7. 🏟️ [Gymnasium](https://github.com/Farama-Foundation/Gymnasium) [![GitHub_Stars](https://img.shields.io/github/stars/Farama-Foundation/Gymnasium?style=social&color=white)](https://github.com/Farama-Foundation/Gymnasium/stargazers)
 * **Description:** The actively maintained, community-governed standard API for reinforcement learning environments (the official successor fork to OpenAI Gym).
 * **Key Features:** Modern step API (`observation, reward, terminated, truncated, info`), vector environments for batched stepping, and modern MuJoCo 3 bindings.
 * **License:** MIT
 
-### 8. 🎓 [Spinning Up in Deep RL](https://github.com/openai/spinningup) [![GitHub stars](https://img.shields.io/github/stars/openai/spinningup?style=social&color=white)](https://github.com/openai/spinningup/stargazers)
+### 8. 🎓 [Spinning Up in Deep RL](https://github.com/openai/spinningup) [![GitHub_Stars](https://img.shields.io/github/stars/openai/spinningup?style=social&color=white)](https://github.com/openai/spinningup/stargazers)
 * **Description:** OpenAI's educational curriculum and code base designed to take engineers and researchers from zero to deep RL practitioner.
 * **Key Features:** Crystal-clear, minimalistic reference code for VPG, TRPO, PPO, DDPG, TD3, and SAC alongside exhaustive mathematical explanations.
 * **License:** MIT
 
-### 9. 🥋 [Tianshou](https://github.com/thu-ml/tianshou) [![GitHub stars](https://img.shields.io/github/stars/thu-ml/tianshou?style=social&color=white)](https://github.com/thu-ml/tianshou/stargazers)
+### 9. 🥋 [Tianshou](https://github.com/thu-ml/tianshou) [![GitHub_Stars](https://img.shields.io/github/stars/thu-ml/tianshou?style=social&color=white)](https://github.com/thu-ml/tianshou/stargazers)
 * **Description:** Highly modular, lightning-fast PyTorch deep reinforcement learning library based on pure vectorized environment sampling.
 * **Key Features:** Supports 30+ algorithms across model-free, model-based, multi-agent, and offline RL with modular policy abstractions and high-speed prioritized experience replay buffers.
 * **License:** MIT
 
-### 10. 🧹 [CleanRL](https://github.com/vwxyzjn/cleanrl) [![GitHub stars](https://img.shields.io/github/stars/vwxyzjn/cleanrl?style=social&color=white)](https://github.com/vwxyzjn/cleanrl/stargazers)
+### 10. 🧹 [CleanRL](https://github.com/vwxyzjn/cleanrl) [![GitHub_Stars](https://img.shields.io/github/stars/vwxyzjn/cleanrl?style=social&color=white)](https://github.com/vwxyzjn/cleanrl/stargazers)
 * **Description:** High-quality, self-contained single-file implementations of deep reinforcement learning algorithms with zero hidden abstractions.
 * **Key Features:** Every algorithm variant exists in a standalone single file (~300–400 lines) with complete logging, hyperparameter tracking, and Weights & Biases telemetry.
 * **License:** MIT
 
-### 11. 🦾 [Isaac Lab](https://github.com/isaac-sim/IsaacLab) [![GitHub stars](https://img.shields.io/github/stars/isaac-sim/IsaacLab?style=social&color=white)](https://github.com/isaac-sim/IsaacLab/stargazers)
+### 11. 🦾 [Isaac Lab](https://github.com/isaac-sim/IsaacLab) [![GitHub_Stars](https://img.shields.io/github/stars/isaac-sim/IsaacLab?style=social&color=white)](https://github.com/isaac-sim/IsaacLab/stargazers)
 * **Description:** NVIDIA's unified, modular GPU-accelerated framework for robot learning and reinforcement learning simulation built on Isaac Sim / Omniverse.
 * **Key Features:** Massive parallel physics stepping (tens of thousands of concurrent robot instances on a single RTX 4090/A100 GPU); direct integrations with RL-Games, RSL-RL, skrl, and Stable-Baselines3.
 * **License:** BSD-3-Clause
 
-### 12. 🎲 [OpenSpiel](https://github.com/google-deepmind/open_spiel) [![GitHub stars](https://img.shields.io/github/stars/google-deepmind/open_spiel?style=social&color=white)](https://github.com/google-deepmind/open_spiel/stargazers)
+### 12. 🎲 [OpenSpiel](https://github.com/google-deepmind/open_spiel) [![GitHub_Stars](https://img.shields.io/github/stars/google-deepmind/open_spiel?style=social&color=white)](https://github.com/google-deepmind/open_spiel/stargazers)
 * **Description:** Google DeepMind's comprehensive collection of environments and algorithms for research in multi-agent reinforcement learning and game theory.
 * **Key Features:** Extensive suite of cooperative, zero-sum, and general-sum games (Chess, Go, Poker, Hanabi, Backgammon) with Monte Carlo Tree Search, CFR, and AlphaZero algorithms.
 * **License:** Apache-2.0
 
-### 13. 📈 [ElegantRL](https://github.com/AI4Finance-Foundation/ElegantRL) [![GitHub stars](https://img.shields.io/github/stars/AI4Finance-Foundation/ElegantRL?style=social&color=white)](https://github.com/AI4Finance-Foundation/ElegantRL/stargazers)
+### 13. 📈 [ElegantRL](https://github.com/AI4Finance-Foundation/ElegantRL) [![GitHub_Stars](https://img.shields.io/github/stars/AI4Finance-Foundation/ElegantRL?style=social&color=white)](https://github.com/AI4Finance-Foundation/ElegantRL/stargazers)
 * **Description:** Cloud-native, massively parallel deep reinforcement learning framework with lightweight, highly readable core architectures (<1,000 lines).
 * **Key Features:** Multiprocessing actor-critic worker pipelines, Isaac Gym parallel environment compatibility, and applied quantitative finance toolkits.
 * **License:** Apache-2.0
 
-### 14. 🔬 [Acme](https://github.com/google-deepmind/acme) [![GitHub stars](https://img.shields.io/github/stars/google-deepmind/acme?style=social&color=white)](https://github.com/google-deepmind/acme/stargazers)
+### 14. 🔬 [Acme](https://github.com/google-deepmind/acme) [![GitHub_Stars](https://img.shields.io/github/stars/google-deepmind/acme?style=social&color=white)](https://github.com/google-deepmind/acme/stargazers)
 * **Description:** Google DeepMind's research framework providing building blocks for constructing scalable, reproducible reinforcement learning agents.
 * **Key Features:** Explicit separation of Actor and Learner components, enabling identical agent code to execute on single local laptops or across distributed cluster topologies with JAX and TensorFlow.
 * **License:** Apache-2.0
 
-### 15. 🏡 [Habitat-Sim](https://github.com/facebookresearch/habitat-sim) [![GitHub stars](https://img.shields.io/github/stars/facebookresearch/habitat-sim?style=social&color=white)](https://github.com/facebookresearch/habitat-sim/stargazers)
+### 15. 🏡 [Habitat-Sim](https://github.com/facebookresearch/habitat-sim) [![GitHub_Stars](https://img.shields.io/github/stars/facebookresearch/habitat-sim?style=social&color=white)](https://github.com/facebookresearch/habitat-sim/stargazers)
 * **Description:** Meta AI Research's high-performance 3D simulator for embodied AI and visual navigation reinforcement learning.
 * **Key Features:** Renders photorealistic 3D indoor scenes (Matterport3D, Gibson) at several thousand frames per second per GPU core, enabling rapid training of sensory-motor policies.
 * **License:** MIT
 
-### 16. 🔄 [ReAgent (Horizon)](https://github.com/facebookresearch/ReAgent) [![GitHub stars](https://img.shields.io/github/stars/facebookresearch/ReAgent?style=social&color=white)](https://github.com/facebookresearch/ReAgent/stargazers)
+### 16. 🔄 [ReAgent (Horizon)](https://github.com/facebookresearch/ReAgent) [![GitHub_Stars](https://img.shields.io/github/stars/facebookresearch/ReAgent?style=social&color=white)](https://github.com/facebookresearch/ReAgent/stargazers)
 * **Description:** Meta's applied open-source platform for reasoning systems and discrete/continuous offline reinforcement learning.
 * **Key Features:** Specialized in production recommendation systems, automated push notification delivery, and off-policy evaluation (OPE) on counterfactual data.
 * **License:** BSD-3-Clause
 
-### 17. 🔥 [TorchRL](https://github.com/pytorch/rl) [![GitHub stars](https://img.shields.io/github/stars/pytorch/rl?style=social&color=white)](https://github.com/pytorch/rl/stargazers)
+### 17. 🔥 [TorchRL](https://github.com/pytorch/rl) [![GitHub_Stars](https://img.shields.io/github/stars/pytorch/rl?style=social&color=white)](https://github.com/pytorch/rl/stargazers)
 * **Description:** Official PyTorch-native reinforcement learning library built around explicit `TensorDict` data structures and high-performance C++ execution kernels.
 * **Key Features:** Modular actors, critics, replay buffers, distributed collectors, and loss operators for model-free, model-based, multi-agent, and decision-transformer architectures.
 * **License:** MIT
 
-### 18. 🐾 [PettingZoo](https://github.com/Farama-Foundation/PettingZoo) [![GitHub stars](https://img.shields.io/github/stars/Farama-Foundation/PettingZoo?style=social&color=white)](https://github.com/Farama-Foundation/PettingZoo/stargazers)
+### 18. 🐾 [PettingZoo](https://github.com/Farama-Foundation/PettingZoo) [![GitHub_Stars](https://img.shields.io/github/stars/Farama-Foundation/PettingZoo?style=social&color=white)](https://github.com/Farama-Foundation/PettingZoo/stargazers)
 * **Description:** The Farama Foundation's multi-agent counterpart to Gymnasium, providing standardized APIs for multi-agent reinforcement learning.
 * **Key Features:** Agent-Environment Cycle (AEC) and Parallel environment interfaces covering classical board games, multi-player Atari, cooperative particle simulations, and swarm robotics.
 * **License:** MIT
 
-### 19. 🤖 [Gymnasium-Robotics](https://github.com/Farama-Foundation/Gymnasium-Robotics) [![GitHub stars](https://img.shields.io/github/stars/Farama-Foundation/Gymnasium-Robotics?style=social&color=white)](https://github.com/Farama-Foundation/Gymnasium-Robotics/stargazers)
+### 19. 🤖 [Gymnasium-Robotics](https://github.com/Farama-Foundation/Gymnasium-Robotics) [![GitHub_Stars](https://img.shields.io/github/stars/Farama-Foundation/Gymnasium-Robotics?style=social&color=white)](https://github.com/Farama-Foundation/Gymnasium-Robotics/stargazers)
 * **Description:** Standardized continuous control robotics environments for Gymnasium with physics simulations implemented in MuJoCo.
 * **Key Features:** Fetch manipulation, Shadow Dexterous Hand, Franka Emika Panda, and Adroit manipulation tasks with goal-conditioned RL baselines.
 * **License:** MIT
 
-### 20. 🦾 [MetaWorld](https://github.com/Farama-Foundation/Metaworld) [![GitHub stars](https://img.shields.io/github/stars/Farama-Foundation/Metaworld?style=social&color=white)](https://github.com/Farama-Foundation/Metaworld/stargazers)
+### 20. 🦾 [MetaWorld](https://github.com/Farama-Foundation/Metaworld) [![GitHub_Stars](https://img.shields.io/github/stars/Farama-Foundation/Metaworld?style=social&color=white)](https://github.com/Farama-Foundation/Metaworld/stargazers)
 * **Description:** Benchmark environment suite for meta-reinforcement learning and multi-task robotic manipulation.
 * **Key Features:** 50 distinct robotic manipulation tasks (MT10, MT50, ML10, ML45) designed to test policy generalization across diverse physical interaction paradigms.
 * **License:** MIT
 
-### 21. 💾 [Minari](https://github.com/Farama-Foundation/Minari) [![GitHub stars](https://img.shields.io/github/stars/Farama-Foundation/Minari?style=social&color=white)](https://github.com/Farama-Foundation/Minari/stargazers)
+### 21. 💾 [Minari](https://github.com/Farama-Foundation/Minari) [![GitHub_Stars](https://img.shields.io/github/stars/Farama-Foundation/Minari?style=social&color=white)](https://github.com/Farama-Foundation/Minari/stargazers)
 * **Description:** Standardized library and dataset repository for offline reinforcement learning (the modern successor to D4RL).
 * **Key Features:** HDF5-based dataset storage, dataset creation pipelines from Gymnasium observation streams, and reproducibility testing suites.
 * **License:** Apache-2.0
 
-### 22. 🧩 [Jumanji](https://github.com/instadeepai/jumanji) [![GitHub stars](https://img.shields.io/github/stars/instadeepai/jumanji?style=social&color=white)](https://github.com/instadeepai/jumanji/stargazers)
+### 22. 🧩 [Jumanji](https://github.com/instadeepai/jumanji) [![GitHub_Stars](https://img.shields.io/github/stars/instadeepai/jumanji?style=social&color=white)](https://github.com/instadeepai/jumanji/stargazers)
 * **Description:** InstaDeep's suite of hardware-accelerated, scalable reinforcement learning environments written natively in JAX.
 * **Key Features:** 22+ environments ranging from combinatorial optimization (TSP, Knapsack, Bin Packing) to complex games, capable of auto-vectorization (`jax.vmap`) and JIT compilation on TPUs and GPUs.
 * **License:** Apache-2.0
@@ -393,3 +393,12 @@ Thank you for visiting and supporting **Awesome Reinforcement Learning**! If you
 * 🍴 **Fork the repo** to maintain your personal reference and contribute enhancements back.
 * 📢 **Share it** with your peers, AI labs, and robotics communities.
 * ☕ **Sponsor the maintainer**: Support continuous research curation, tool tracking, and updates via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+## Star History
+
+<a href="https://star-history.com/#ishandutta2007/Awesome-Reinforcement-Learning&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_Awesome-Reinforcement-Learning_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_Awesome-Reinforcement-Learning_growth.svg">
+  </picture>
+</a>
